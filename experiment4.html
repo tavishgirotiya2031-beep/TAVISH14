@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <h1>Student Registration Form</h1>
+      <hr />
+      <form action="/submit.html">
+        Full Name:
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your full name"
+        /><br /><br />
+        Email:
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter valid email adress"
+        /><br /><br />
+        Password:
+        <input type="password" name="password" id="password" /><br /><br />
+        Gender:
+        <input type="radio" name="male" id="male" />
+        <label for="male">male</label>
+
+        <input type="radio" name="gender" id="female" />
+        <label for="female">female</label>
+
+        <input type="radio" name="gender" id="others" />
+        <label for="others">others</label><br /><br />
+
+        course:
+        <select name="course" id="course" placeholder="select coutse">
+          <option value="">Select Course</option>
+          <option value="">CSE</option>
+          <option value="">CSE DS</option>
+          <option value="">CSE AI ML</option>
+          <option value="">ECE</option>
+          <option value="">ELCE</option></select
+        ><br /><br />
+        Contact NO :
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="Enter phone Number"
+        /><br /><br />
+        Adress : <br />
+        <textarea
+          name="comment"
+          id="comment"
+          placeholder="Enter your Adress"
+        ></textarea>
+        <br /><br />
+        <button>Register</button> <button>clear</button>
+      </form>
+    </center>
+  </body>
+</html>
