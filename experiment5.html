@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Room Booking Form</title>
+  </head>
+  <body>
+    <center>
+      <table border="4" cellpadding="15">
+        <tr>
+          <td>
+            <form action="/submit.html">
+              <h2>Hotel Room Booking Form</h2>
+              Full Name :<br />
+              <input type="text" name="name" id="name" /><br /><br />
+              Email: <br />
+              <input type="email" name="email" id="email" /><br /><br />
+              Phone: <br />
+              <input type="tel" name="phone" id="phone" /><br /><br />
+              Check-in Date :
+              <input type="date" name="date" id="date" /><br /><br />
+              Check-out Date :
+              <input type="date" name="date" id="date" /><br /><br />
+              Room Type:
+              <select name="roomtype" id="roomtype">
+                <option value="single Room">Single</option>
+                <option value="double">Double</option>
+                <option value="triple">Triple</option></select
+              ><br /><br />
+              Number of Guests :
+              <input type="number" name="number" id="number" /><br /><br />
+              Special request :<br />
+              <textarea name="text" id="text"></textarea><br /><br />
+              <button>BOOK NOW</button><button>RESET FORM</button>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>
