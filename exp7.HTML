@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Navigation</title>
+    <style>
+        /* CSS for the Navigation Bar Layout and Styling */
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0; /* Light background for the page body */
+        }
+
+        .navbar-container {
+            border: 1px solid #ccc;
+            width: 80%; /* Adjust width as needed */
+            margin: 0 auto; /* Center the container */
+            background-color: white; /* White background for the main container */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-header {
+            background-color: #d3d3d3; /* Light gray background for the header area */
+            padding: 10px;
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        .navbar-header span {
+            color: #cc0000; /* Red color for "Website" */
+            font-weight: bold;
+        }
+
+        .nav-row {
+            padding: 10px;
+            display: flex; /* Use Flexbox to arrange buttons horizontally */
+            gap: 10px; /* Space between buttons */
+        }
+
+        .nav-button {
+            padding: 8px 15px;
+            text-decoration: none; /* Remove underline from links */
+            color: black;
+            border: 1px solid #aaa;
+            border-radius: 4px;
+            font-size: 0.9em;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        /* Styling for the first row (light blue/cyan) */
+        .row-one .nav-button {
+            background-color: #b0e0e6; /* Powder Blue */
+        }
+
+        .row-one .nav-button:hover {
+            background-color: #87ceeb; /* Light Sky Blue on hover */
+        }
+
+        /* Styling for the second row (light green) */
+        .row-two .nav-button {
+            background-color: #90ee90; /* Light Green */
+        }
+
+        .row-two .nav-button:hover {
+            background-color: #7cbb7c; /* Slightly darker green on hover */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="navbar-container">
+        
+        <div class="navbar-header">
+            My <span>Website</span> Navigation
+        </div>
+
+        <div class="nav-row row-one">
+            <a href="#" class="nav-button">Home</a>
+            <a href="#" class="nav-button">About</a>
+            <a href="#" class="nav-button">Services</a>
+            <a href="#" class="nav-button">Contact</a>
+        </div>
+
+        <div class="nav-row row-two">
+            <a href="#" class="nav-button">Dashboard</a>
+            <a href="#" class="nav-button">Profile</a>
+            <a href="#" class="nav-button">Messages</a>
+            <a href="#" class="nav-button">Logout</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
